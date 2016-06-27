@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		30B8F7AA2F22415C95D44EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5289C15D60B41DBBC7AADB2 /* Foundation.framework */; };
-		4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */; };
 		7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */; };
+		9413E6091D21A9F700CB8139 /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413E6081D21A9F700CB8139 /* FISViewController.m */; };
+		9413E60B1D21AA0500CB8139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9413E60A1D21AA0500CB8139 /* Main.storyboard */; };
 		D0D7835FFCD34B79AC2E7477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E798758BBF044A70BEE06836 /* main.m */; };
 		E15752C0E46D4CEDACD0094B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA4DAF6FC9457FA2C246E6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,9 @@
 		4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6F5DB406E6C94332841A101B /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		855DAAE3806840F795A8F092 /* horizontal-profile-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "horizontal-profile-Prefix.pch"; sourceTree = "<group>"; };
+		9413E6071D21A9F700CB8139 /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
+		9413E6081D21A9F700CB8139 /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
+		9413E60A1D21AA0500CB8139 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A361BE65D745413AB2AE4BA0 /* horizontal-profile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "horizontal-profile-Info.plist"; sourceTree = "<group>"; };
 		C5289C15D60B41DBBC7AADB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CA3F9134B18E4490A0E8492F /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +102,9 @@
 			children = (
 				6F5DB406E6C94332841A101B /* FISAppDelegate.h */,
 				DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */,
+				9413E6071D21A9F700CB8139 /* FISViewController.h */,
+				9413E6081D21A9F700CB8139 /* FISViewController.m */,
+				9413E60A1D21AA0500CB8139 /* Main.storyboard */,
 				DE6B38C886034C4B98712280 /* Resources */,
 			);
 			path = "horizontal-profile";
@@ -223,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9413E60B1D21AA0500CB8139 /* Main.storyboard in Resources */,
 				4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */,
 				E15752C0E46D4CEDACD0094B /* Images.xcassets in Resources */,
 			);
@@ -259,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9413E6091D21A9F700CB8139 /* FISViewController.m in Sources */,
 				7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */,
 				D0D7835FFCD34B79AC2E7477 /* main.m in Sources */,
 			);
